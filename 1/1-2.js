@@ -1,15 +1,7 @@
 import input from "./1.input.js";
 
-const list1 = [];
-const list2 = [];
-
-for (let alfa = 0; alfa < input.length; alfa++) {
-  if (alfa == 0 || alfa % 2 == 0) {
-    list1.push(input[alfa]);
-  } else {
-    list2.push(input[alfa]);
-  }
-}
+const list1 = input[0];
+const list2 = input[1];
 
 let total = 0;
 
